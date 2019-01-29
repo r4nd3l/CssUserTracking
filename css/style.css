@@ -1,0 +1,94 @@
+/* Default DevCorner Style Setting */
+
+:root{
+  --dc-: #28a745;
+}
+
+body{
+  background: url(../img/img_10.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.content{
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: Roboto;
+}
+
+h5{
+  font-size: 3em;
+  text-align: center;
+}
+
+h6{
+  text-align: center;
+  font-size: 2em;
+  padding: 1em 0;
+  margin: 0;
+}
+
+ul{
+  padding: 1em 6em;
+}
+
+.hint{
+  background: rgba(0,0,0,0.6);
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.hint p{
+  text-align: center;
+}
+
+.hint p:nth-child(4){
+  padding: 2em 0;
+}
+
+a{
+  background-color: var(--dc-);
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 0 1em;
+  cursor: pointer;
+}
+
+a:focus,
+a:hover{
+  background-color: #249e40;
+  color: #ccc;
+}
+
+/* Css Tracker */
+#link:active::after {
+    content: url("index.php");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End */
